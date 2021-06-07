@@ -1,5 +1,5 @@
 import React from "react";
-
+import ReactAnimatedWeather from 'react-animated-weather';
 import "./Weather.css";
 
 export default function Weather(props) {
@@ -18,7 +18,14 @@ export default function Weather(props) {
 
             <div className="col-md-2">
               {" "}
-              <span className="weather-icon">🌞</span>
+              <span className="weather-icon">
+              <ReactAnimatedWeather
+    icon="CLEAR_DAY"
+    color="gold"
+    size={100}
+    animate={true}
+  />
+              </span>
             </div>
 
             <div className="col-md-3">

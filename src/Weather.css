@@ -12,10 +12,6 @@
     padding: 0;
   }
   
-  .Weather #weather-icon {
-    width: 150px;
-    float: right;
-  }
   .Weather .today-weather-column {
     padding-top: 20px;
     text-align: left;
