@@ -22,6 +22,7 @@ export default function App() {
           />
         </div>
       </div>
+      <p className="footer">This app is coded by <a href="https://www.elisacrescentini.dev" target="_blank" rel="noreferrer noopener" title="Elisa's Portfolio">Elisa Crescentini</a> and it's <a href="https://github.com/AmyLynn87/weather-react" target="_blank" rel="noreferrer noopener" title="Weather React GitHub Repository">open sourced</a></p>
     </div>
   );
 }

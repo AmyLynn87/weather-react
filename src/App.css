@@ -14,3 +14,8 @@ body {
   background: linear-gradient(#032447, #0d5192);
   color: white;
 }
+
+.App .footer {
+  font-size: 15px;
+  text-align: center;
+}
