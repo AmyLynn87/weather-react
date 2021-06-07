@@ -1,0 +1,16 @@
+.Search form {
+    max-width: 95%;
+    display: block;
+    margin: 15px auto;
+  }
+  
+  .Search #search-button {
+    background-color: #343434;
+    color: white;
+  }
+  .Search #current-city-button {
+    background-color: #343434;
+    font-weight: bold;
+    color: #fff;
+  }
+  

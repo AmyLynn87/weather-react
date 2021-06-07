@@ -1,0 +1,46 @@
+.Weather main {
+    padding: 10px 25px 0 25px;
+  }
+  .Weather h1 {
+    font-weight: bold;
+    font-family: "RocknRoll One", sans-serif;
+    text-align: left;
+    text-transform: capitalize;
+  }
+  .Weather ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Weather #weather-icon {
+    width: 150px;
+    float: right;
+  }
+  .Weather .today-weather-column {
+    padding-top: 20px;
+    text-align: left;
+  }
+  .Weather #today-weather {
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  .Weather .today-temperature {
+    font-weight: bold;
+    font-size: 50px;
+  }
+  
+  .Weather .informations {
+    padding-top: 20px;
+    text-align: left;
+  }
+  .Weather .humidity,
+  .wind,
+  .min,
+  .max {
+    font-size: 17px;
+  }
+  .Weather .weather-icon {
+    font-size: 100px;
+  }
+  
